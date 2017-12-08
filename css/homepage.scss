@@ -1,0 +1,172 @@
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,800|Oleo+Script:400,700');
+
+
+/* COLORS */
+
+$elegant-color: #2E2E2E;
+$elegant-color-dark: #212121;
+$stylish-color: #4B515D;
+$stylish-color-dark: #3E4551;
+$unique-color: #3F729B;
+$unique-color-dark: #1C2331;
+$special-color: #37474F;
+$special-color-dark: #263238;
+$danger-color: #ff4444;
+$danger-color-dark: #CC0000;
+$warning-color: #ffbb33;
+$warning-color-dark: #FF8800;
+$success-color: #00C851;
+$success-color-dark: #007E33;
+$info-color: #33b5e5;
+$info-color-dark: #0099CC;
+$default-color: #2BBBAD;
+$default-color-dark: #00695c;
+$primary-color: #4285F4;
+$primary-color-dark: #0d47a1;
+$secondary-color: #aa66cc;
+$secondary-color-dark: #9933CC;
+$white: #ffffff;
+
+
+
+html {
+	font-size: 62.5%; 
+}
+body {
+	font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+	line-height: 1.6;
+	font-weight: 200;
+	font-family: 'Montserrat', Arial, sans-serif;
+	color: $elegant-color-dark;
+}
+
+
+
+
+
+
+/*
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries*/
+
+
+
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+
+
+progress {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.hidden {
+	display: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+section {
+	header {
+		background-color: $elegant-color;
+		color: #fff;
+		padding: 1.5rem;
+		box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+	}
+}
+
+ul {
+	/*padding: 0;*/
+	li {
+		list-style: none;
+		border: 1px solid $stylish-color;
+		border-top: 0;
+		width: 50%;
+		padding: .75rem;
+		font-weight: 200;
+		&:first-child {
+			border-top: 1px solid $stylish-color;
+		}
+		&:hover {
+			cursor: pointer;
+			background-color: $primary-color;
+			a {
+				color: $white;
+			}
+		}
+	}
+}
+
+
+
+
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
