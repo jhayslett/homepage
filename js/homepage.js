@@ -3,7 +3,10 @@ document.addEventListener("DOMContentLoaded", function(){
 	var links = [
 		["SurveyGizmo Application","https://app.surveygizmo.com/login/v1"],
 		["Knowledge Center - Production","http://portalprd.discounttire.com/portal/server.pt"],
-		["Amazon Music","https://music.amazon.com/home"]
+		["Knowledge Center - Staging","http://portalprd.discounttire.com/portal/server.pt"],
+		["Amazon Music","https://music.amazon.com/home"],
+		["Edit Homepage JS","https://github.com/jhayslett/homepage/blob/master/js/homepage.js"],
+		["SlickDeals","https://slickdeals.net"]
 	];
 
 	var html = "";
