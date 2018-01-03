@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
 	var links = [
 		["SurveyGizmo Application","https://app.surveygizmo.com/login/v1"],
-		["Knowledge Center - Production","http://portalprd.discounttire.com/portal/server.pt"]
+		["Knowledge Center - Production","http://portalprd.discounttire.com/portal/server.pt"],
+		["Amazon Music","https://music.amazon.com/home"]
 	];
 
 	var html = "";
