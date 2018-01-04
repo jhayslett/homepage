@@ -126,13 +126,15 @@ section {
 	header {
 		background-color: $elegant-color;
 		color: #fff;
-		padding: 1.5rem;
+		padding: 1.5rem 3rem;
 		box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
 	}
 }
 
 ul {
-	/*padding: 0;*/
+	-webkit-padding-start: 0;
+	margin-left: 3rem;
+
 	li {
 		list-style: none;
 		border: 1px solid $stylish-color;
