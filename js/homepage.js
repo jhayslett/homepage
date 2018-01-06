@@ -20,7 +20,20 @@ document.addEventListener("DOMContentLoaded", function(){
 	html += "<ul>";
 
 	// CREATE INDEX OF HEADERS
+	// 
+	// 
+	var linkCategories = [];
+	links.forEach(function(link){
+		if(!linkCategories.includes(link[2])) {
+			linkCategories.push(link[2]);
+		}
+	})
+	console.log(linkCategories)
 
+
+	linkCategories.forEach(function(linkCategory){
+		// html += "<li>" + linkCategory + "</li>";
+	})
 
 	for(var i = 0; i < links.length; i++) {
 		html += "<li class='" + links[i][2] + "'><a target='_blank' href='" + links[i][1] + "'>" + links[i][0] + "</a></li>";
