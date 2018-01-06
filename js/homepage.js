@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
 		["Modern Developer - QA","http://qa.moderndeveloper.com","Classwork"],
 		["CodePen","https://codepen.io/dashboard/","Classwork"],
 		["Github","https://github.com","Classwork"],
-		["GitHub - Coursework","https://github.com/moderndeveloper-students/coursework-jhayslett","Classwork"]
+		["GitHub - Coursework","https://github.com/moderndeveloper-students/coursework-jhayslett","Classwork"],
 		["Pexels","https://www.pexels.com/","Developer Resources - Stock Photography"]
 	];
 
