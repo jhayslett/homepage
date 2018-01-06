@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function(){
 		["GitHub - Coursework","https://github.com/moderndeveloper-students/coursework-jhayslett","Classwork"],
 		["Pexels","https://www.pexels.com/","Developer Resources - Stock Photography"],
 		["Pomodone App","https://my.pomodoneapp.com/account/todoist","Productivity Tools"],
-		["Todoist","https://en.todoist.com/app?lang=en","Productivity Tools"]
+		["Todoist","https://en.todoist.com/app?lang=en","Productivity Tools"],
+		["Playstation Vue","https://vue.playstation.com/watch/home","Personal"]
 	];
 
 	var html = "";
