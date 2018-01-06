@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function(){
 		["CodePen","https://codepen.io/dashboard/","Classwork"],
 		["Github","https://github.com","Classwork"],
 		["GitHub - Coursework","https://github.com/moderndeveloper-students/coursework-jhayslett","Classwork"],
-		["Pexels","https://www.pexels.com/","Developer Resources - Stock Photography"]
+		["Pexels","https://www.pexels.com/","Developer Resources - Stock Photography"],
+		["Pomodone App","https://my.pomodoneapp.com/account/todoist","Productivity Tools"],
+		["Todoist","https://en.todoist.com/app?lang=en","Productivity Tools"]
 	];
 
 	var html = "";
